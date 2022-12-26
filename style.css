@@ -1,4 +1,4 @@
-/*font-family: 'Montserrat', sans-serif;*/
+﻿/*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Playfair Display', serif;*/
 
 /*  General Reset    */
@@ -15,7 +15,8 @@
 }
 
 picture,
-img {
+img,
+svg {
     max-width: 100%;
 }
 
@@ -27,9 +28,9 @@ html {
 :root {
     /*    colors    */
     --clr-black: 0 0% 0%;
-    --clr-text-dark: 0 0% 31%;
-    --clr-text-light: 0 0% 20%;
-    --clr-gray: 0 0% 74%;
+    --clr-text-dark: 0 0% 31%; /* #4F4F4F */
+    --clr-text-light: 0 0% 20%; /* #333333 */
+    --clr-gray: 0 0% 74%; /* #BDBDBD */
     --clr-border: 0 0% 51%;
     --clr-orange: 28 87% 62%;
     --clr-white: 0 0% 100%;
@@ -59,9 +60,89 @@ html {
     margin-inline: auto;
 }
 
+.flex {
+    display: flex;
+    gap: var(--flex-gap, 1.5rem);
+}
+
 body {
     font-size: var(--fs-500);
     font-family: var(--ff-montserrat);
     font-weight: var(--fw-400);
     color: hsl(var(--clr-black));
+    padding-inline: 2rem;
 }
+
+/*region Header*/
+header {
+    margin-block: clamp(3rem, 7vw, 5rem) clamp(2rem, 5vw, 3rem);
+}
+
+header h1 {
+    font-size: var(--fs-700);
+    font-weight: var(--fw-700);
+    font-family: var(--ff-playfair);
+    margin-bottom: 1rem;
+}
+
+.six-dots {
+    flex-shrink: 0;
+}
+
+header p {
+    font-style: italic;
+    color: hsl(var(--clr-text-dark));
+    font-size: var(--fs-300);
+    line-height: 15px;
+}
+/*endregion*/
+
+
+/*region Hero image*/
+.hero-img {
+    margin-bottom: clamp(2.5rem, 7vw, 4.5rem);
+}
+/*endregion*/
+
+
+/*region prep-info*/
+
+.prep-info {
+    --flex-gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yield {
+    width: 100%;
+}
+
+.prep-info > div {
+    --flex-gap: 1rem;
+    align-items: center;
+}
+
+.prep-info img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.prep-info p {
+    font-size: var(--fs-200);
+    color: hsl(var(--clr-text-light));
+    font-weight: var(--fw-500);
+}
+
+.prep-info .meal-topic {
+    font-size: var(--fs-100);
+    color: hsl(var(--clr-gray));
+    text-transform: uppercase;
+}
+
+.prep-info .accent {
+    color: hsl(var(--clr-orange)) !important;
+    fill: hsl(var(--clr-orange)) !important;
+}
+
+/*endregion*/
