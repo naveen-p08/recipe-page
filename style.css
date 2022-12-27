@@ -105,6 +105,15 @@ header p {
 /*endregion*/
 
 
+/*region Instructions*/
+.instructions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+/*endregion*/
+
+
 /*region prep-info*/
 
 .prep-info {
@@ -126,6 +135,7 @@ header p {
 .prep-info img {
     width: 2rem;
     height: 2rem;
+    vertical-align: sub;
 }
 
 .prep-info p {
@@ -141,8 +151,7 @@ header p {
 }
 
 .prep-info .accent {
-    color: hsl(var(--clr-orange)) !important;
-    fill: hsl(var(--clr-orange)) !important;
+    color: hsl(var(--clr-orange));
 }
 
 /*endregion*/
