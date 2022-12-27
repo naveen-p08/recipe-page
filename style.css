@@ -200,6 +200,10 @@ header p {
     margin-left: var(--input-spacing);
 }
 
+.ingredients label {
+    cursor: pointer;
+}
+
 /* aligning text vertically */
 input[type="checkbox"] {
     width: 2rem;
@@ -209,6 +213,7 @@ input[type="checkbox"] {
     margin-right: 1rem;
 
     accent-color: hsl(var(--clr-orange));
+    cursor: pointer;
 }
 
 .highlight {
@@ -304,3 +309,73 @@ input[type="checkbox"] {
 }
 
 /*endregion*/
+
+
+@media (min-width: 45em) {
+    /*region Header*/
+    header h1 {
+        font-size: var(--fs-900);
+    }
+
+    header p {
+        font-size: var(--fs-400);
+        max-width: 60ch;
+        line-height: 17px;
+    }
+    /*endregion*/
+
+    .instructions-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    /*region Prep info*/
+    .prep-info {
+        --flex-gap: 4rem;
+        flex-direction: column;
+        align-self: flex-start;
+        align-items: flex-start;
+        padding: 5rem 4rem;
+        box-shadow: 0 0 5px 0 hsl(var(--clr-black) / 0.2);
+        border-radius: 0.8rem;
+    }
+
+    .prep-info > div {
+        --flex-gap: 1.5rem;
+    }
+
+    .prep-info  p {
+        font-size: var(--fs-400);
+    }
+
+    .prep-info .meal-topic {
+        font-size: var(--fs-200);
+    }
+    /*endregion*/
+
+    .instructions {
+        max-width: 55ch;
+    }
+
+    .ingredients > h2 {
+        font-size: var(--fs-700);
+    }
+
+    .ingredient-type-1 > h3,
+    .ingredient-type-2 > h3 {
+        font-size: var(--fs-600);
+    }
+
+    .ingredient-type-1-list li,
+    .ingredient-type-2-list li {
+        font-size: var(--fs-500);
+    }
+
+    /*region source*/
+    .source {
+        font-size: var(--fs-500);
+        white-space: initial;
+    }
+    /*endregion*/
+}
