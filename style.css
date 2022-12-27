@@ -250,6 +250,10 @@ input[type="checkbox"] {
     --input-spacing: 5rem;
     counter-increment: step-counter;
     margin-left: var(--input-spacing);
+
+    margin-bottom: 3rem;
+    font-size: var(--fs-500);
+    line-height: 24px;
 }
 
 .instructions-list li::before {
