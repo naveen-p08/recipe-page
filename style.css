@@ -207,6 +207,8 @@ input[type="checkbox"] {
     vertical-align: middle;
     margin-left: calc(var(--input-spacing) * -1);
     margin-right: 1rem;
+
+    accent-color: hsl(var(--clr-orange));
 }
 
 .highlight {
@@ -274,6 +276,31 @@ input[type="checkbox"] {
 
     position: relative;
     top: 1.5rem;
+}
+
+/*endregion*/
+
+/*region Source*/
+.source {
+    font-size: var(--fs-300);
+    color: hsl(var(--clr-gray));
+    font-style: italic;
+    white-space: pre-line;
+}
+/*endregion*/
+
+/*region Attribution*/
+
+.attribution  {
+    margin-block: 10rem 3rem;
+    font-size: var(--fs-400);
+    color: hsl(var(--clr-border));
+    text-align: center;
+}
+
+.attribution a {
+    font-weight: var(--fw-700);
+
 }
 
 /*endregion*/
