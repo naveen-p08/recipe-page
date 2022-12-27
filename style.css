@@ -95,6 +95,7 @@ header p {
     font-size: var(--fs-300);
     line-height: 15px;
 }
+
 /*endregion*/
 
 
@@ -102,6 +103,7 @@ header p {
 .hero-img {
     margin-bottom: clamp(2.5rem, 7vw, 4.5rem);
 }
+
 /*endregion*/
 
 
@@ -111,6 +113,7 @@ header p {
     flex-direction: column;
     gap: 3rem;
 }
+
 /*endregion*/
 
 
@@ -153,5 +156,72 @@ header p {
 .prep-info .accent {
     color: hsl(var(--clr-orange));
 }
+
+/*endregion*/
+
+
+/*region Instruction Section*/
+
+/*region Ingredient section*/
+
+.ingredients {
+    margin-bottom: 3rem;
+}
+
+.ingredients > h2 {
+    font-size: var(--fs-600);
+    color: hsl(var(--clr-text-light));
+    line-height: 24px;
+    font-weight: var(--fw-700);
+    font-family: var(--ff-playfair);
+}
+
+.ingredient-type-1 {
+    margin-block: clamp(1rem, 5vw, 4rem) 4rem;
+}
+
+.ingredient-type-1 > h3,
+.ingredient-type-2 > h3{
+    font-size: var(--fs-500);
+    color: hsl(var(--clr-text-light));
+    font-family: var(--ff-playfair);
+    font-style: italic;
+    margin-bottom: clamp(2.5rem, 3vw, 3rem);
+}
+
+.ingredient-type-1-list li,
+.ingredient-type-2-list li {
+    --input-spacing: 3rem;
+
+    font-size: var(--fs-400);
+    color: hsl(var(--clr-text-light));
+    line-height: 25px;
+    margin-bottom: clamp(0.8rem, 2vw, 1.2rem);
+
+    margin-left: var(--input-spacing);
+}
+
+/* aligning text vertically */
+input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-left: calc(var(--input-spacing) * -1);
+    margin-right: 1rem;
+}
+
+.highlight {
+    font-weight: var(--fw-700);
+}
+
+.m-italic {
+    font-style: italic;
+}
+
+.m-italic span {
+    font-style: normal;
+}
+
+/*endregion*/
 
 /*endregion*/
