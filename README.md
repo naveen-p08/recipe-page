@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://root9259.github.io/recipe-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/root9259/recipe-page">
       Solution
     </a>
     <span> | </span>
@@ -27,9 +27,8 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+
 - [Features](#features)
-- [How to use](#how-to-use)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -37,22 +36,24 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](recipe%20page.png)
+You can see the Demo [Here](https://root9259.github.io/recipe-page/)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+The numbered list and the checkbox alignment styles are made using the negative margin method. Examples to the method can be found [here](https://jsfiddle.net/b3dayLzo/) and [here](https://stackoverflow.com/questions/14347290/left-align-both-list-numbers-and-text)
 
-- Where can I see your demo?
-- What was your experience?
+The numbered list counter is created and styled with the css Counter() function. Example can be found [here](https://codepen.io/sawmac/pen/qBKzmM)
 - What have you learned/improved?
 - Your wisdom? :)
 
-### Built With
+[//]: # (### Built With)
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+[//]: # (- [React]&#40;https://reactjs.org/&#41;)
+
+[//]: # (- [Vue.js]&#40;https://vuejs.org/&#41;)
+
+[//]: # (- [Tailwind]&#40;https://tailwindcss.com/&#41;)
 
 ## Features
 
@@ -64,31 +65,46 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [ ] User story: This is a incompleted user stories
 - [ ] User story: This is a incompleted 2nd user stories
 
-## How To Use
+[//]: # (## How To Use)
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+[//]: # ()
+[//]: # (To clone and run this application, you'll need [Git]&#40;https://git-scm.com&#41; and [Node.js]&#40;https://nodejs.org/en/download/&#41; &#40;which comes with [npm]&#40;http://npmjs.com&#41;&#41; installed on your computer. From your command line:)
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+[//]: # ()
+[//]: # (```bash)
 
-# Install dependencies
-$ npm install
+[//]: # (# Clone this repository)
 
-# Run the app
-$ npm start
-```
+[//]: # ($ git clone https://github.com/your-user-name/your-project-name)
+
+[//]: # ()
+[//]: # (# Install dependencies)
+
+[//]: # ($ npm install)
+
+[//]: # ()
+[//]: # (# Run the app)
+
+[//]: # ($ npm start)
+
+[//]: # (```)
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+[//]: # (- [Steps to replicate a design with only HTML and CSS]&#40;https://devchallenges-blogs.web.app/how-to-replicate-design/&#41;)
+
+[//]: # (- [Node.js]&#40;https://nodejs.org/&#41;)
+
+[//]: # (- [Marked - a markdown parser]&#40;https://github.com/chjj/marked&#41;)
+
+Css counter function Example: https://codepen.io/sawmac/pen/qBKzmM
+<br>
+Negative margin method for aligning list example: https://jsfiddle.net/b3dayLzo/
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [here](https://develop-naveen.netlify.app/)
+- GitHub [@root9259](https://github.com/root9259)
+- Twitter [@naveen_p08](https://twitter.com/naveen_p08)
